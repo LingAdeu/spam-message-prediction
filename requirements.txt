@@ -1,0 +1,9 @@
+eli5==0.13.0
+imbalanced-learn==0.12.2
+joblib==1.2.0
+lime==0.2.0.1
+numpy==1.23.5
+pandas==1.5.3
+regex==2024.5.10
+scikit-learn==1.2.2
+shap==0.45.1
