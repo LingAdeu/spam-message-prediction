@@ -2,8 +2,8 @@
 
 # Development and Evaluation of a Classification Model for Spam Detection
 
-## About
-
+## Summary
+This project attempts to build a classification model to predict spam messages (`1` for spam and `0` for ham/legitimate message) in a telecommunication company. Due to minimizing both false positives (type I errors) and false negatives (type II errors), F1 was chosen as the primary evaluation metric. Based on the results, the best model, namely logistic regression, achieved a high F1 score of 0.92 $\pm$ 0.01 across 10 folds. Furthermore, as the model can save financial cost of \$23K based on a simulation, the model can be used to minimize the impacts of spams on the users.
 
 ## Getting Started
 To replicate my analysis or explore the data further, kindly follow the following steps:
