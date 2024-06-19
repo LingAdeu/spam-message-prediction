@@ -17,13 +17,16 @@ https://github.com/LingAdeu/spam-message-prediction.git
 ## Folder Organization
 ```
   .
-  ├── README.md           <- The top-level README for using this project
+  ├── README.md                           <- The top-level README for using this project
   ├── data
-  │   └── spam.csv        <- Dataset
+  │   └── spam.csv                        <- Dataset
+  ├── header.png
   ├── model
-  │   └── best_model.pkl  <- Best model (calibrated logistic regression)
-  ├── report.ipynb        <- Jupyter Notebook file
-  └── requirements.txt    <- The requirements file for reproducing the environment
+  │   └── calibrated_best_model.joblib    <- Best model (calibrated logistic regression)
+  ├── report.ipynb                        <- Jupyter Notebook file
+  ├── requirements.txt                    <- The requirements file for reproducing the environment
+  └── src
+      └── app7.py                         <- Streamlit app for for model testing
 ```
 
 ## Feedback
