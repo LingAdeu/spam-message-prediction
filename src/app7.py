@@ -65,10 +65,10 @@ def main():
         prob_not_spam = probability[0][0]
         
         if prediction[0] == 1:
-            st.markdown(f"There is a {prob_spam * 100:.2f}% chance this message is <span style='color:red;font-weight:bold'>spam</span>.", 
+            st.markdown(f"There is a {prob_spam * 100:.2f}% chance this message is <span style='color:red;font-weight:bold'>SPAM</span>.", 
                         unsafe_allow_html=True)
         else:
-            st.markdown(f"There is a {prob_not_spam * 100:.2f}% chance this message is <span style='color:green;font-weight:bold'>not spam</span>.", 
+            st.markdown(f"There is a {prob_not_spam * 100:.2f}% chance this message is <span style='color:green;font-weight:bold'>NOT SPAM</span>.", 
                         unsafe_allow_html=True)
         
         st.markdown("""
@@ -93,7 +93,7 @@ def main():
         ax.set_yticks(range(len(scores)))
         ax.set_yticklabels(feature_names)
         ax.invert_yaxis()  
-        ax.set_xlabel('Probability Score')
+        ax.set_xlabel('Score')
         ax.set_title('Word Influence Score')
 
         st.pyplot(fig)
