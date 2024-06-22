@@ -212,8 +212,6 @@ def main():
 
             st.pyplot(fig)
 
-    # add a footer
-    st.markdown("<hr>", unsafe_allow_html=True)
     st.markdown("<h7 style='text-align: center; color: grey;'>Developed by LingAdeu</h7>", unsafe_allow_html=True)
 
 if __name__ == "__main__":
