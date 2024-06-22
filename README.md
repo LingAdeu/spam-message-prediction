@@ -14,7 +14,7 @@ https://github.com/LingAdeu/spam-message-prediction.git
 2. Ensure that all necessary dependencies are installed, especially Python and Jupyter Notebook. All libraries are specified on file requirements.txt.
 3. Run my Jupyter Notebook file (`*.ipynb`) in [notebook](https://github.com/LingAdeu/spam-message-prediction/blob/main/report.ipynb) folder to reproduce the analysis. This notebook contains the detailed implementation of data preprocessing, model training, and evaluation. Alternatively, kindly check this Jupyter Notebook Viewer [URL](https://nbviewer.org/github/LingAdeu/spam-message-prediction/blob/main/report.ipynb) to see the notebook.
 
->[!important] Testing Purpose
+>[!important]
 > To try to use the model, kindly use this [Streamlit app](https://spam-prediction.streamlit.app).
 
 ## Folder Organization
