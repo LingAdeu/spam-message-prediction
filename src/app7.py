@@ -34,7 +34,7 @@ class TextCleaner(BaseEstimator, TransformerMixin):
         return text
 
 # load the model using joblib
-model_path = '/Users/adeliajanuarto/Documents/PurwadhikaDS/04_Individual-Projects/Module03_Portfolio/model/calibrated_best_model.joblib'
+model_path = 'model/calibrated_best_model.joblib'
 model = joblib.load(model_path)
 
 # create function to predict
