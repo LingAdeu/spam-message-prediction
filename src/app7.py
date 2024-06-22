@@ -39,7 +39,9 @@ model = joblib.load(model_path)
 
 # create function to predict
 def predict(input_text):
-    data = pd.Series([input_text])
+    cleaner = TextCleaner()
+    cleaned_text = cleaner.transform(input_text)
+    data = pd.Series([cleaned_text])
     prediction = model.predict(data)
     probability = model.predict_proba(data)
     return prediction, probability
